@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+            <script type=text/javascript src="{{url_for('static', filename='js/jquery.js') }}"></script> <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>-->
+            <script type=text/javascript src="{{url_for('static', filename='js/proceed.js') }}"></script>
+            <link rel="shortcut icon" href="">
+    </head>
+    <body>
+
+        <h1>RABBITMQ Services exposed</h1>
+
+        <br/>
+
+        <h2> -| Créer une queue</h2>
+        <label>Nom de la queue</label> : <input id="nom_queue_c" type="text" name="nom" placeholder="nom de la queue"/><br/>
+        <input type="button" id="btn_c" value="Créer la queue" />
+        <p id="result_c"></p>
+
+        <br/>
+
+        <h2> -| Envoyer un message dans la queue</h2>
+        <label>Nom de la queue</label> : <input id="nom_queue_s" type="text" name="nom" placeholder="nom de la queue"/><br/>
+        <label>Message</label> : <input id="msg_queue_s" type="text" name="message" placeholder="message"/><br/>
+        <input type="button" id="btn_s" value="Envoyer le message" />
+        <p id="result_s"></p>
+
+        <br/>
+
+        <h2> -| Lire les messages dans la queue</h2>
+        <label>Nom de la queue</label> : <input id="nom_queue_r" type="text" name="nom" placeholder="nom de la queue"/><br/>
+        <input type="button" id="btn_r" value="Lire les messages" />
+        <p id="result_r"></p>
+
+    </body>
+</html>

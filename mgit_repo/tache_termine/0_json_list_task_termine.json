@@ -1,0 +1,17 @@
+{
+    "id_projet": 0,
+    "list_MtaskS": [
+        {
+            "ended": false,
+            "id_projet": 0,
+            "id_task": "0"
+        },
+        {
+            "ended": false,
+            "id_projet": 0,
+            "id_task": "1"
+        }
+    ],
+    "nb_task": 2,
+    "result": ""
+}

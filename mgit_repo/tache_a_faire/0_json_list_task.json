@@ -1,0 +1,16 @@
+[
+    {
+        "cmd": "echo ",
+        "id_projet": 0,
+        "id_task": "0",
+        "phrase": "la tache numero 0 dit bonjour au projet numero 0",
+        "url": "/home/test/env/projet/mgit_repo/tache_a_faire"
+    },
+    {
+        "cmd": "echo ",
+        "id_projet": 0,
+        "id_task": "1",
+        "phrase": "la tache numero 1 dit bonjour au projet numero 0",
+        "url": "/home/test/env/projet/mgit_repo/tache_a_faire"
+    }
+]
