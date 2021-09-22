@@ -52,3 +52,4 @@ __5. Modélisation de l'intéraction entre les 2 threads de Main.py__
 ![image](https://user-images.githubusercontent.com/47711469/134269890-69f59541-0f8f-4d41-9708-f1f6093e8880.png)
 
 
+(public version)
