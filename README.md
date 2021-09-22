@@ -43,9 +43,12 @@ La machine hôte sous Ubuntu 18.04 lancera :
 - le container RabbitMQ sera le container officiel docker RabbitMQ
 
 __4. Modélisation globale du programme__
+
 ![image](https://user-images.githubusercontent.com/47711469/134269774-e4b5454b-5f9e-4c85-a3a3-992ae034a8de.png)
 
+
 __5. Modélisation de l'intéraction entre les 2 threads de Main.py__
+
 ![image](https://user-images.githubusercontent.com/47711469/134269890-69f59541-0f8f-4d41-9708-f1f6093e8880.png)
 
 
